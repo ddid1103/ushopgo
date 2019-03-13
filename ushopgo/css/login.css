@@ -1,0 +1,188 @@
+.ico{
+	display:block;
+	height:235px;
+	width:124px;
+	background:url(../img/logEWM.gif) no-repeat;
+	position:absolute;
+	top: 152px;
+    left: 0;
+}
+.logo1{
+	height:112px;
+	background:#fff;
+} 
+.logo{
+	height:112px;
+	width:1000px;
+	margin:0 auto;
+}
+.land_logo{
+	float:left;
+    height: 57px;
+    margin-top: 31px;
+}
+.land_logo a{
+	display:block;
+	height:57px;
+	width:185px;
+	background:url(../img/welland.gif) no-repeat 0 0;
+	float:left;
+}
+.land_logo span{
+	display:block;
+	height:57px;
+	width:168px;
+	background:url(../img/welland.gif) no-repeat 0 -58px;
+	float:left;
+}
+.logo p{
+	float:right;
+    color: #525252;
+    padding-top: 70px;
+    font-size:12px;
+    font: 12px '宋体';
+}
+.logo p a{
+    color: #0089cf;
+}
+.logo p i{
+    font: 15px '微软雅黑';
+    color: #eb0007;
+    font-weight: normal;
+}
+/*login*/
+.land_in{
+	height:489px;
+	background:#fff;
+	
+}
+.land_con{
+	font: 12px '宋体';
+	width:964px;
+	height:440px;
+    border: 2px solid #ff8400;
+	margin:0 auto;	
+}
+.land_con1{
+	width: 532px;
+    padding-left: 133px;
+    color: #666666;
+    padding-top: 62px;
+}
+.land_item{
+    width: 351px;
+    height: 65px;
+}
+.land_item span{
+    display: block;
+    height: 12px;
+    padding-bottom: 7px;
+}
+.item-ifo{
+	position: relative;
+    z-index: 1;
+}
+.item-ifo .yhm_text{
+    font: 13px Arial;
+    color: #222;
+    width: 315px;
+    padding: 5px 25px 5px 10px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #a2a2a2;
+}
+.item-ifo .i-name{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    z-index: 10;
+}
+.item-ifo .land_ico{
+    width: 16px;
+    height: 16px;
+    background: url(../img/welland.gif) 0 -229px no-repeat;
+}
+.item-ifo .tips{
+    height: 20px;
+    width: 340px;
+    corlor: #eb0007;
+    padding-left: 10px;
+    line-height: 20px;
+    border: 1px solid #ffadb0;
+    background-color: #fff3f3;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 37px;
+    display:none;
+}
+.item-ifo .land_ico2{
+    width: 16px;
+    height: 19px;
+    background: url(../img/welland.gif) 0 -251px no-repeat;
+}
+.land_con .l{
+	float:left;
+}
+.land_item2{
+    width: 351px;
+    height: 31px
+}
+.land_item2 .yhm{
+    height: 13px;
+    line-height: 13px;
+    margin-left: 6px;
+}
+.land_item2 .forget{
+	float:right;
+	
+}
+.land_item2 .forget a{
+    color: #0089cf;
+}
+.login-btn .btn{
+    width: 351px;
+    height: 37px;
+    background: url(../img/welland.gif) 0 -117px no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.login_tips{
+    padding: 25px 0;
+    color: #888;
+    width: 351px;
+    line-height: 22px;
+}
+.login_tips p{
+    scolor: #666;
+    font-weight: 600;
+}
+.con_r{
+	height:380px;
+	float:left;
+    width: 217px;
+    background-color: #fff6ec;
+    padding-left: 82px;
+    padding-top: 58px;
+}
+.land_item3 {
+    width: 219px;
+    height: 57px;
+}
+.land_item3 span {
+    font: 14px '微软雅黑';
+    color: #555555;
+}
+.land_item3 a {
+	display:block;
+    width: 142px;
+    height: 32px;
+    background: url(../img/welland.gif) 0 -155px no-repeat;
+    line-height: 32px;
+    text-align: center;
+    color: #ff6000;
+    margin-top: 10px;
+}
+.mar {
+    margin-top: 42px;
+}

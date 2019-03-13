@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<link rel="stylesheet" href="css/public.css" />	
+		<link rel="stylesheet" href="css/shouye.css" />	
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+	</head>
+	
+	<body>
+		<!--top-->
+		<div class="top">
+			<div class="top1">
+				<div class="notice">
+					<span>公告    :</span>
+					<ul>
+						<li><a href="#">【紧急通知】关于短信发送异常的公告</a></li>
+						<li><a href="#">【公告】防诈骗提醒</a></li>
+						<li><a href="#">惠买（优购物）5周年庆，盛大聚“惠”</a></li>
+						<li><a href="#">【注意】自主语音订购说明</a></li>
+						<li><a href="#">【紧急通知】关于短信发送异常的公告</a></li>	
+					</ul>
+				</div>
+					<ul class="top_nav">
+						<li><a href="register.html" target="_blank">注册</a><span>|</span></li>
+						<li><a href="login.html" target="_blank"">登录</a><span>|</span></li>
+						<li><a href="#">我的订单</a><span>|</span></li>
+						<li><a href="#">我的关注</a><span>|</span></li>
+						<li><a href="#">资讯</a><span>|</span></li>
+						<li><a href="#">品牌馆</a><span>|</span></li>
+						<li class="last" id="last">
+							<img src="img/phone.png" alt="" />
+							<a href="#">手机惠买</a>
+						</li>
+					</ul>
+			</div>
+		</div>
+		<!--search-->
+		<div class="search">
+			<div class="search1">
+				<h1 class="logo"><a href="#"><img src="img/logo.png"/></a></h1>
+				<form action="">
+					<input type="text" placeholder="请输入商品名称或货号" class="txt" id="txt"/>
+					<a href="#"><input type="button" class="btn" value="搜索" /></a>
+					<ul id="box1">
+					<!--<li><a href="" target="_blank">aaa</a></li>-->
+					</ul>
+				</form>
+				<p><img src="img/top-app-download.png" alt="" /></p>	
+			</div>
+		</div>
+		<!--nav-->
+		<div class="nav">
+			<div class="nav1">
+				<ul>
+					<li><a href="#" class="first">首页</a></li>
+					<li><a href="#" class="a-tvicon">视频</a></li>
+					<li><a href="#">品质厨房</a></li>
+					<li><a href="#">美食民生</a></li>
+					<li><a href="#">健康生活</a></li>
+					<li><a href="#">魅力穿戴</a></li>
+					<li><a href="#">珠宝收藏</a></li>
+					<li><a href="#">美肤靓装</a></li>
+					<li><a href="#">音乐之声</a></li>
+					<li class="navcat">
+						<dl class="alnav">
+							<dt class="sysp">
+								<p>在线分类</p>
+							</dt>
+							<dd>
+								<ol>
+									<li>
+										<h4 class="m1">品质厨房</h4>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+									</li>
+									<li>
+										<h4 class="m2">美食·民生</h4>
+										<p><a href="#">进口食品</a></p>
+										<p><a href="#">营养保健</a></p>
+										<p><a href="#">休闲食品</a></p>
+										<p><a href="#">粮油干货</a></p>
+										<p><a href="#">酒水茶饮</a></p>
+										<p><a href="#">生鲜食品</a></p>
+									</li>
+									<li>
+										<h4 class="m3">健康生活</h4>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+										<p><a href="#">餐饮用具</a></p>
+									</li>
+									<li>
+										<h4 class="m4">魅力穿戴</h4>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+										<p><a href="#">餐饮用具</a></p>
+									</li>
+									<li>
+										<h4 class="m5">魅力穿戴</h4>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+									</li>
+									<li class="last">
+										<h4 class="m6">魅力穿戴</h4>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+										<p><a href="#">烹饪厨具</a></p>
+										<p><a href="#">厨房电器</a></p>
+										<p><a href="#">餐饮用具</a></p>
+									</li>
+								</ol>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<!--banner-->
+			<div class="banner" id="banner">
+				<div class="banner-inner">
+					<ul id="banner-inner">
+						<li><a href="#"><img src="img/lb1.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lb2.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lb3.jpg" alt="" /></a></li>
+						<li><a href="#"><img src="img/lb1.jpg" alt="" /></a></li>
+					</ul>
+				</div>
+				
+				<div class="banner1" id="banner1">
+					<a href="#"></a>
+					<a href="#"></a>
+					<div class="num">
+						<ol id="blist">
+							<li><span class="current"></span></li>
+							<li><span></span></li>
+							<li><span></span></li>
+						</ol>
+					</div>		
+					<span class="st arr_left"></span>
+					<span class="st arr_right"></span>
+				</div>
+		</div>
+		<!--tvShow-->
+		<div class="tvShow">
+			<div class="title">
+				<span class="f1">
+					<i class="f1_line"></i>
+					<span>
+						<i>TV</i>
+						直播
+					</span>
+					上惠买APP，拼着买更便宜
+				</span>
+				<a href="#" class="f1_btn"></a>
+			</div>
+			<div class="tvShow1">
+				<div class="tvShowList">
+					<ul>
+						<li>
+							<a href="#"><img src="img/1547061031231664054.jpg" alt="" /></a>
+							<p class="first"><a href="#">大家扫进圣诞节送方式少数</a></p>
+							<p class="last"><a href="#">￥1246</a><span>￥1666</span></p>
+						</li>
+						<li>
+							<a href="#"><img src="img/75872d1d7b4292d0565903f0718f74db.jpg" alt="" /></a>
+							<p class="first"><a href="#">健康度搜啊看电视阿达</a></p>
+							<p class="last"><a href="#">￥3666</a><span>￥4200</span></p>
+							<!--<img src="img/zhibo.jpg" alt="" class="m4"/>-->
+						</li>
+						<li class="th">
+							<a href="#"><img src="img/1545610542004859367.jpg" alt="" /></a>
+							<p class="first"><a href="#">大速度是多少圣达生物此次</a></p>
+							<p class="last"><a href="#">￥888</a><span>￥999</span></p>
+						</li>
+					</ul>
+					<img src="img/41f20d57-6966-4609-b968-b8fdeb63d2de.png" alt="" class="m1"/>
+					<img src="img/a53a8d5f-6dde-45cb-ad32-a26071d355c7.png" alt="" class="m2 m1"/>
+					<img src="img/1533889644795.png" alt="" class="m3 m1"/>
+					<span class="m4">· TV直播中</span>
+					<span class="m5 m4">· TV直播中</span>
+					<span class="m6 m4">· TV直播中</span>
+					<div class="livetime-back1">
+						<h3 class="time1"></h3>
+					</div>
+					<div class="livetime-back2">
+						<h3 class="time1"></h3>
+					</div>
+					<div class="livetime-back3">
+						<h3 class="time1"></h3>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!--daily-->
+		<div class="tvShow title">
+			<span class="f1">
+				<i class="f1_line"></i>
+				<span>
+					<i>今日</i>
+					必抢
+				</span>
+			</span>
+		</div>	
+		
+		<div class="daily">
+			<div class="daily_left">
+				<!--<div class="leftout">-->	
+					<div class="leftin">
+						<div class="shadow_lb"></div>
+						<div class="shadow_rt"></div>
+						<div class="everyday">
+							<i class="icon_clock"></i>
+							每日一品
+						</div>
+						<div class="daily_shop_img">
+							<img src="img/1547667634600581972.jpg" alt="" />
+						</div>
+						<p class="daily_shop_tt">一衣两穿！中长款加厚连帽简约舒适宽松保暖棉服·不挑身材！时尚显瘦！超性价比！！</p>
+						<p class="daily_shop_box_price">
+							<span>￥178</span>
+							<i>￥298</i>
+						</p>
+						<div class="daily_num_tag">
+							<div class="span1">
+								立减<br />
+								<span class="span2">120</span>
+								元
+							</div>
+						</div>
+					</div>
+				<!--</div>-->
+			</div>
+			
+			<div class="daily_right">
+				<div class="daily_inner">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/1545346660423386400.jpg" alt=""/>
+								<p class="first">方家铺子 富平柿饼 3斤左右（独立包装礼盒）8-12个1斤</p>
+								<p class="last">￥69<span>￥139</span></p>
+								<h3>马上抢</h3>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/1546539890124310216.jpg" alt=""/>
+								<p class="first">兆亮珠宝 玫瑰花3D硬金足金999黄金吊坠  1.4-1.6g  共同</p>
+								<p class="last">￥69<span>￥139</span></p>
+								<h3>马上抢</h3>
+							</a>
+						</li>
+						<li class="three">
+							<a href="#">
+								<img src="img/1546466873952644964.jpg" alt=""/>
+								<p class="first">怡飘熊猫系列竹浆本色无芯卷纸48卷</p>
+								<p class="last">￥69<span>￥139</span></p>
+								<h3>马上抢</h3>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/1547513297529956312.jpg" alt=""/>
+								<p class="first">怡飘熊猫系列竹浆本色无芯卷纸48卷</p>
+								<p class="last">￥69<span>￥139</span></p>
+								<h3>马上抢</h3>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/1547590910225749721.jpg" alt=""/>
+								<p class="first">方家铺子 富平柿饼 3斤左右（独立包装礼盒）8-12个1斤</p>
+								<p class="last">￥69<span>￥139</span></p>
+								<h3>马上抢</h3>
+							</a>
+						</li>
+					</ul>
+					<span class="iconfont sp1" >&#xe6ac;</span>
+					<span class="iconfont sp2" >&#xe6b1;</span>
+				</div>
+			</div>
+		</div>
+		<!--main  利用json 引入数据-->
+		<div class="home_title tvShow title">
+			<span class="f1">
+				<i class="f1_line"></i>
+				<span>
+					<i>惠买</i>
+					优选
+				</span>
+			</span>
+		</div>
+		<div class="main">
+			
+			<ul class="main_u" id="main_u">
+				<!--<li>
+					<a href="#" target = "_blank>
+					<img src="img/2990c80bb1c92514ab4533688f2a0eac.jpg" alt="" />
+					<p class="mp1">怀山堂铁棍怀山粉7盒装</p>
+					<p class="mp2">复古 时尚 优雅</p>
+					<p class="mp3">
+						<span class="price">
+							<i>￥</i>998
+						</span>
+						<span class="sale_price">
+							<i>￥</i>998
+						</span>
+						<span class="purchased">
+							<i>14人</i>
+							已购买
+						</span>
+					</p>
+					<h4></h4>
+					</a>
+				</li>-->
+				
+			</ul>
+			
+			
+		</div>
+		
+		<!--bottom-->
+		<div class="bottom">
+			<div class="bottom1">
+				<img src="img/footer_ad.jpg" alt="" />
+				<div class="first">
+					<dl class="firstd1">
+						<dt>新手上路</dt>
+						<dd><a href="#">新用户注册</a></dd>
+						<dd><a href="#">忘记密码</a></dd>
+						<dd><a href="#">购物流程</a></dd>
+					</dl>
+					<dl class="firstd1">
+						<dt>支付配送</dt>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">支付宝</a></dd>
+						<dd><a href="#">配送方式</a></dd>
+					</dl>
+					<dl class="firstd1">
+						<dt>会员服务</dt>
+						<dd><a href="#">服务承诺</a></dd>
+						<dd><a href="#">会员制度</a></dd>
+						<dd><a href="#">积分介绍</a></dd>
+						<dd><a href="#">退换货原则</a></dd>
+					</dl>
+					<dl class="firstd1 nob">
+						<dt>关于惠买</dt>
+						<dd><a href="#">企业介绍</a></dd>
+						<dd><a href="#">联系我们</a></dd>
+						<dd><a href="#">招商专区</a></dd>
+					</dl>
+					<dl class="firstd2">
+						<dt>
+						<a href="#">
+							<img src="img/foot_ewm.jpg" alt="" />
+							<i>手机惠买</i>
+							<b>(优购物)</b>
+						</a>	
+						</dt>
+						<dd>
+							<img src="img/foot_dh.jpg" alt="" />
+						</dd>
+					</dl>
+				</div>
+				<p class="footer-list">
+					<a href="">首页</a><span>|</span>
+					<a href="">关于惠买</a><span>|</span>
+					<a href="">优购物</a><span>|</span>
+					<a href="">联系我们</a><span>|</span>
+					<a href="">招贤纳士</a><span>|</span>
+					<a href="">招商专区</a><span>|</span>
+					<a href="">供应商入口</a><span>|</span>
+					<a href="">友情链接</a><span>|</span>
+					<a href="">网站地图</a><span>|</span>
+					<a href="">咨询中心</a><span>|</span>
+					<a href="">评论</a><span>|</span>
+					<a href="">图片</a>
+				</p>
+				<p class="yqlink">
+					<i>友情链接:</i>
+					<a href="#">配眼镜</a>
+					<a href="#">佐卡伊珠宝网</a>
+					<a href="#">如何开免费试用网店</a>
+					<a href="#">免费试用</a>
+					<a href="#">钻戒网</a>
+				</p>
+				<p class="copyright">优品_惠买（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,
+					优品_惠买（优购物）电视购物官方网站,100%正品保证 支持货到付款.
+				</p>
+				<p class="copyright">Copyright©2007-2017    公司名称:北京惠买网络科技有限公司        
+					公司地址:北京市北京经济技术开发区同济南路19号7幢2层C区   服务热线：400-707-0707
+				</p>
+			    <p class="copyright"> 统一社会信用代码:91110302339739621C     
+			    	ICP备案号:京ICP备15039150号-1      食品流通许可证编号:JY11131010332635 
+			    	<a href="#">营业执照</a>
+			    	<a href="#">京网文(2017)10902-1271</a>
+			    	<a href="#">增值业务经营许可证：京B2-20181380 </a>
+			    </p>
+			    <p class="last">
+			    	<img src="img/bei.png" alt="" />
+			    	<a href="#">京公网安备 11030102000055号</a>
+			    </p>
+			</div>
+		</div>
+		<!--side-->
+		<div class="sidebar">
+			<ul class="bar_top">
+				<li class="user">
+					<span class="side1"></span>
+					<div class="user_hover">
+						<ol>
+							<li><a href="#" class="closex"></a></li>
+							<li><img src="img/72x72.jpg" alt="" /></li>
+							<li><p>你好！请<a href="login.html" target="_blank">登录</a>|<a href="register.html" target="_blank">注册</a></p></li>
+							<li class="last">
+								<h3 class="ding"><a href="#">我的订单</a></h3>
+								<h4 class="ding"><a href="#">优惠卷</a></h4>
+							</li>
+						</ol>							
+					</div>
+				</li>
+				
+				<li class="care">
+					<span class="side2"></span>
+					<p><a href="#">我的关注</a></p>
+				</li>
+				
+				<li class="ser">
+					<span class="side3"></span>
+					<p><a href="#">在线客服</a></p>
+				</li>		
+			</ul>
+			
+			<ul class="bar_bot">
+				<li class="code">
+					<span class="side4"></span>
+					<p></p>
+				</li>
+				<li class="ask">
+					<span class="side5"></span>
+					<p><a href="#">调查问卷</a></p>
+				</li>
+				<li class="return_top" id="return_top">
+					<span class="side6"></span>
+					<p><a href="#">返回顶部</a></p>
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>
+    <script src="js/promise.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/sport6.js"></script>
+	<script src="js/common.js"></script>
+

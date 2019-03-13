@@ -1,0 +1,237 @@
+/*注册 logo*/
+.logo1{
+	height:112px;
+	background:#fff;
+} 
+.logo{
+	height:112px;
+	width:1000px;
+	margin:0 auto;
+}
+.land_logo{
+	float:left;
+    height: 57px;
+    margin-top: 31px;
+}
+.land_logo a{
+	display:block;
+	height:57px;
+	width:185px;
+	background:url(../img/welland.gif) no-repeat 0 0;
+	float:left;
+}
+.land_logo span{
+	display:block;
+	height:57px;
+	width:168px;
+	background:url(../img/welreg_01.gif) no-repeat 0 0;
+	float:left;
+}
+.logo p{
+	float:right;
+    color: #525252;
+    padding-top: 70px;
+    font-size:12px;
+}
+.logo p a{
+    color: #0089cf;
+}
+/*regnav begin*/
+.regnav1{
+	height:42px;
+	background:#fff;
+}
+.regnav{
+	width:968px;
+	height:42px;
+	margin:0 auto;
+}
+.regnav .zhuce{
+	height:42px;
+	width:225px;
+	cursor: pointer;
+    line-height: 42px;
+    font-size: 14px; 
+    font-weight: 600;
+    text-align: center;
+	background:url(../img/welreg_01.gif) no-repeat 0 -58px;
+	float:left;
+}
+.regnav .a1{
+    padding-left: 20px;
+	color: #fff;
+	background:url(../img/welreg_01.gif) no-repeat 0 -233px;
+}
+.regnav p{
+	float:right;
+    font: 12px '宋体';
+    margin-top: 15px;
+}
+.regnav p a{
+    color: #0089CF;
+}
+.regnav p i{
+    font-size: 13px;
+    color: #eb0007;
+}
+.land_in{
+	height:540px;
+	background:#fff;
+	
+}
+.land_con{
+	font: 12px '宋体';
+	width:964px;
+	height:440px;
+    padding-top: 45px;
+    border: 2px solid #ff8400;
+	margin:0 auto;
+
+}
+.land_con .item{
+	width:964px;
+	height:52px;
+}
+.land_con .regName .l{
+	float:left;
+}
+.land_con .regName .labname1{
+    display: block;
+    text-align: right;
+    width: 187px;
+    padding-right: 15px;
+    height: 37px;
+    line-height: 37px;
+    color: #666666;
+}
+.land_con .regName .item-ifo{
+	position:relative;
+}
+.land_con .regName .regk{
+	width: 314px;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 25px 5px 10px;
+    border: 1px solid #a2a2a2;
+}
+
+.land_con .regName .dui{
+	width: 16px;
+    height: 15px;
+    background: url(../img/welland.gif) 0 -275px no-repeat;
+    margin-top: 5px;
+}
+.land_con .regName .i-name{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    z-index: 10;
+}
+.land_con .regName .land-ico{
+    width: 16px;
+    height: 16px;
+    background: url(../img/welland.gif) 0 -229px no-repeat;
+}
+.land_con .regName .etips{
+    background-color: #fff3f3;
+    border: 1px solid #ffadb0;
+    color: #eb0007;
+    width: 270px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 9px;
+    position: absolute;
+    left: 353px;
+    top: 0;
+    display:none;
+}
+.land_con .regName .yz{
+	font: 15px Arial;
+    color: #222;
+    width: 102px;
+    padding: 5px 10px 5px 10px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #a2a2a2;
+    float:left;
+}
+.land_con .regName .s1{
+	float:left;
+	display:block;
+	height:30px;
+	width:90px;
+	background:#ccc;
+	margin: 3px 5px 0;
+	font-size:20px;
+	font-weight:900;
+	text-align:center;
+	line-height:30px;
+}
+.land_con .regName h4{
+	font: 12px '宋体';
+}
+.land_con .regName h4 a{
+    color: #0089cf;
+    line-height:35px;
+    margin-left:3px;
+}
+.land_con .regName .land-ico2{
+    width: 16px;
+    height: 16px;
+    background: url(../img/welland.gif) 0 -252px no-repeat;
+}
+.land_con .regName .land-ico3{
+    width: 16px;
+    height: 16px;
+    background: url(../img/welland.gif) 0 -252px no-repeat;
+}
+.land_con .regName .masege{
+	width: 116px;
+    height: 26px;
+    border: none;
+    background: url(../img/welreg_01.gif) 0 -146px no-repeat;
+    cursor: pointer;
+    margin: 6px 0 0 10px;
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    color: #858585;
+    font: 12px '宋体';
+}
+#itemh2{
+	height: 40px;
+}
+.land_con .regName .check1{
+    display: block;
+    height: 13px;
+    margin-right: 4px;
+}
+.land_con .regName .acheck{
+	color: #0089CF;
+}
+.land_con .regName .registsubmit{
+    width: 126px;
+    height: 33px;
+    border: none;
+    background: url(../img/welreg_01.gif) 0 -175px no-repeat;
+    cursor: pointer;
+}
+.land_con .regName .login_tips{
+    padding: 25px 0;
+    color: #888;
+    width: 351px;
+    line-height: 22px;
+}
+.land_con .regName .login_tips p{
+	color: #666;
+	font-weight: 600;	
+}
+.ico{
+	display:block;
+	height:235px;
+	width:124px;
+	background:url(../img/logEWM.gif) no-repeat;
+	position:absolute;
+	top: 152px;
+    left: 0;
+}
